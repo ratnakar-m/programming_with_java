@@ -1,0 +1,16 @@
+
+
+sources of input (lowest level input stream)
+	- file
+	- network
+	- System.in  //keyboard
+	- other input devices
+	
+
+target for output
+	- file
+	- network
+	- System.out //console or terminal
+	- other output devices
+	
+	

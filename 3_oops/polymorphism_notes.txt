@@ -1,0 +1,38 @@
+Car interface
+-------------
+ - drive()
+ - turn()
+ - stop()
+ 
+Implementation classes
+----------------------
+SwiftDzire implements Car
+Octavia implements Car
+RollsRoyce implements Car
+MercBenz implements Car
+
+Code
+------
+String s = System.in;
+Integer i = Integer.parseInt(s);
+Car  c  = magicLamp()
+c.drive();
+
+Car magicLamp (int i)
+{
+	if(i==1)
+		return new SwiftDzire();
+	if(i==2)
+		return new Octavia();
+	if(i==3)
+		return new RollsRoyce();
+	if(i==4)
+		return new MercBenz();
+	
+}
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+Object[toString(), hashCode(), equals(), wait(), notify(), notifyAll(), clone()]
+Person[name, addr, age, gender, setName(), setAddr(), setAge(), setGender]	
+Student[id, branch, DOJ, hasDues, setId(), setBranch(), setDOJ(), setHasDues ]
+Staff[id, department, cabinLocation, salary, setId(), setDept(), setCabinLoc(), setSalary]
+TeachinStaff[degree, courses, classinCharge, setDegree(), setCourses(), setClassinCharge()]	
+NonTeachinStaff[isPermanent]
+		
+
+Person extends Object
+Student extends Person //Student IS A person
+Staff extends Person //Staff IS A person
+TeachinStaff extends Staff	 //TeachinStaff IS A Staff, TeachinStaff IS A Person
+NonTeachinStaff extends Staff	
+
+
+Generalization - At high level, Conceptual level, at abstract level, at generic level
+Specialization - at specific level, at detailed level, 
+
+
+
+Student st = new Student(); //CORRECT
+st.setName(); //CORRECT
+st.Id(); //CORRECT
+
+Person p = new Student(); //CORRECT
+p.setName(); //CORRECT
+p.name; //CORRECT
+
+p.setId(); //WRONG
+p.id //WRONG
+
+Person p = new Staff();
+p.setName("Uday Kumar");
+p.age
+p.addr
+p.setGender('M')
+
+p.setSalary //WRONG
+
+Staff s = (Staff) p;
+s.salary=20000;
+
+Staff st = p;
+
+
+
+-----------------------
+Collection
+
+List extends Collection
+Set extends Collection
+Map extends Collection
+
+ArrayList extends List
+LinkedList extneds List
+
+TreeSet extends Set
+HashSet extends Set
+
+TreeMap extends Map
+HashMap extends Map 
+
+-----------------------------
+Throwable
+
+Exception extends Throwable
+Error extends Throwable
+
+Exception 
+
+-----------------------------
+Runnable
+
+Thread
+
+
+
+	
+				
+				
+	

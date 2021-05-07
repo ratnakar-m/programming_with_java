@@ -1,0 +1,6 @@
+Throwable
+	Error
+	
+	Exception
+		RuntimeException
+		

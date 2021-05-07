@@ -1,0 +1,40 @@
+Collection
+	add()
+	remove()
+	size()
+	clear()
+	isEmpty()
+	
+Modular Mathematica (Remainder)
+
+x%4
+
+function(x){
+	return x%4;
+}
+
+12 % 4 = 0
+13 % 4 = 1
+2 % 4 = 2
+0 % 4 = 0
+7 % 4 = 3
+9 % 4 = 1
+21 % 4 = 1
+32 % 4 = 0
+45 % 4 = 1
+46 % 4 = 2
+9999 % 4 = 3
+
+"1" ->  "Vijay"
+"2" -> "Ajith"
+"3" -> "Krishna"
+
+"magnanimous" -> "a big minded"
+
+1 -> new Student(1,"Vijay", 'M', 20);
+
+
+int hashCode()
+
+
+	

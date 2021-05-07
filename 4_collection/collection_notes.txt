@@ -1,0 +1,20 @@
+Collection interface
+----------
+	size()
+	add()
+	remove()
+	isEmpty()
+	clear()
+	
+
+
+ArrayList implements Collection
+LinkedList implements Collection //we used LinkedList to demostrate Queue
+Stack implements Collection
+
+
+Collections  -- this is a class that has utility methods to play around with a collection
+-----------
+
+ArrayList of employees... I want to sort them by their workExperience
+ArrayList of students... I want to sort them by their height

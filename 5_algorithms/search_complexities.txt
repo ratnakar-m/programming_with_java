@@ -1,0 +1,28 @@
+Array Size (n) - 1000 = 2^10
+
+n = 2000 (~ 2^11) ~2048
+
+number of comparisons = log(n)
+                           2
+
+log(2^10) = 10log2 = 10
+                 2
+				 
+log(2^11) = 11log2 = 11
+
+n = 1000000 ~ 2^30
+                 2
+				 
+			
+1000 (one thousand)          ~ 2^10   max num comparisons = log(2^10) = 10
+1000000 (one million)        ~ 2^20   max num comparisons = log(2^20) = 20
+1000000000  (one billion)    ~ 2^30   max num comparisons = log(2^30) = 30
+
+
+n > logn
+
+2 		>  log2   = 1 
+4 		>  log2^2 = 2
+1024 	>  log (2^10) = 10
+
+

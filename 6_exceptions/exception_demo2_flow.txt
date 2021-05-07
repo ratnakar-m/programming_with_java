@@ -1,0 +1,24 @@
+main()
+	
+	
+	drive()
+	pickup()
+	hangoutInInorbitMall()
+		shop
+			shop1stfloor
+				look()
+				select()
+				pay()
+			shop2ndfloor
+				look()
+				select()
+				pay()
+			shop3rdfloor
+				look()
+				select()
+				pay()
+		
+		foodcourt()
+		movie()
+	drop()
+	drive()

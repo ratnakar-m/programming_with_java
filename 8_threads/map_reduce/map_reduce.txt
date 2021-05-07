@@ -1,0 +1,23 @@
+Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Problem: Find the sum of above numbers
+
+- divide input into batches (say, 3 batches)
+   [1,2,3,4]
+   [5,6,7,8]
+   [9,10,11,12]
+   
+- Map
+	batch input -> intermediate output
+	
+	[1,2,3,4]  -> 10
+	[5,6,7,8]  -> 26
+	[9,10,11,12] -> 42
+	
+- Reduce
+	10 + 26 + 42 = 78
+	
+
+
+	
+   
+  

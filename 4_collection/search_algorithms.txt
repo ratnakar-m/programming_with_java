@@ -1,0 +1,24 @@
+
+
+Given Sorted Array:
+
+6   13    15    34   68  75   84  89   95   99  112   134   167
+
+int[] arr = { 6,   13,    15,    34,   68,  75,   84, 89,   95,   99,  112,   134,   167 }
+
+Q) find if 95 exists?
+
+given number n=95;
+
+//check if n exists in array
+public boolean linearSearch(int[] arr, int n){
+
+	for(int i=0; i<arr.length; i++{
+		if(arr[i] == n)
+			return true;
+			
+	}
+	
+	return false;
+}
+

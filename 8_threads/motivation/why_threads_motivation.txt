@@ -1,0 +1,30 @@
+Thread - lightweight process
+
+Motivation 1: Divide the task into mulitple subtasks and process them paralelly
+
+Motivation 2:  multiple clients communicating one server
+
+
+Ajith redbus.in (browser)
+
+												redbus Server (Tomcat Webserver)
+													thread() //
+													thread() //
+													thread() //
+													
+												
+
+Vijay redbus.in (browser)
+
+
+
+
+
+XYZ redbus.in
+
+Motivation 3:  To perform background tasks
+				- eg: garbage collector executed in a different thread
+				
+
+	
+												

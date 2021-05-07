@@ -1,0 +1,17 @@
+
+main
+	-> int a = 10; //declaration and assignment
+	-> Student s; //declaration
+	> Student x = new Student(14, "John", new Date());
+	-> int sum = add(3,4)
+	-> S.o.p("hello"); //invokation
+	-> m1()
+		 ->Statement1
+		 ->Statement2
+		 -> m2()
+			-> m3()
+	-> S.o.p("abc")
+	-> int j = 10;
+	
+			
+	

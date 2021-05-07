@@ -1,0 +1,52 @@
+How to View java as real life scenarios
+
+- Creation of object
+Student st = new Student(); 
+
+- Object has a state and a behavior
+	state => object/instance variables  eg: st.id, st.name, st.birthday
+	behavior => object st.modeOfTransportation()
+	
+- Encapsulation
+  the process of encapuslating both state and behavior together is called encapuslation
+  
+  Student x = new Student(10,"Rajesh", "10-09-91");
+  Student y = new Student(12,"Alex", "11-06-93");
+  
+  x.changeName("XYZ")
+  y.changeName("ABC");
+  
+	
+- Inheritance
+	inheriting the object state as well as behavior from the super/parent/base class
+												             sub/child/derived
+															 
+															 
+	Generalization
+	Specialization
+	
+- Class, Abstract Class, Interface
+
+Class - has all the methods implemented. You can instantiate a class.
+(instantiate => create an object of the class)
+
+eg: Student class has all the methods implemented and it can be instantiated using new.
+
+Abstract class - it does not have complete implementation. It cannot be instantiated.
+
+
+	
+- Polymorphism
+
+	Student X;
+	X = new Calculator();
+	
+	
+class Student extends Person{
+}
+	
+	
+	
+	
+	x = new Student(10,"Rajesh", "10-09-91");
+

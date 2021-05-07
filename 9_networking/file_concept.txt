@@ -1,0 +1,15 @@
+every device is resprented as a file internally. That means, the programs input from that corresponding device files or output to that corresponding device files. 
+
+
+enter a key on keyboard --->  keyboard file --> program reads  -> output file --> terminal
+
+
+
+P1 --> socket file  ---> internet
+P2 <--- socket file <---- internet
+
+
+
+
+
+device files ---> /dev/0

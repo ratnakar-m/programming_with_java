@@ -1,0 +1,8 @@
+
+
+character - 1  => binary format: 00110001
+(1 byte)
+
+
+number - 1  =>    00000000000000000000000000000001
+(4 bytes)

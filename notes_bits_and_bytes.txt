@@ -1,0 +1,33 @@
+bits and bytes
+-------------
+
+bit - 0 or 1
+
+boolean - 1 bit (upto the language how it represents internally)
+char - 1 byte								
+byte - 1 byte
+short - 2 bytes
+int - 4 bytes (32 bits)  					- Integer
+float - 4 bytes								- Float
+long - 8 bytes								- Long
+double - 8 bytes							- Double
+BigInt  - wrapper classes that expands internally
+BigDecimal
+arrays:
+char p[10] = ['R', 'a', 't', 'n','a','k','a','r']
+int[]
+float[]
+ArrayList: internally uses array but expands in a new location.
+Queue - Temple, 
+Stack - 
+HashMap - key-value
+Tree
+Student class
+	int age
+	String name
+		char[]
+			char	
+Image
+Video
+Audio
+-- - - - -- - - - - -- - - - -- - 

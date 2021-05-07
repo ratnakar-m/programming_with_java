@@ -1,0 +1,34 @@
+Input Output
+
+
+Input ------------>  Program -------------------> output
+
+Keyboard											Monitor
+File												File
+Mouse												
+Microphone											Speaker
+Camera
+Touch Pad
+
+
+keyboard -----> Network Card --------------internet cable------->
+																|
+																|
+																|
+Monitor  <---- Network Card <--------internet cable--------- Google server
+
+
+
+Chain of inputs ad outputs
+
+
+
+
+
+
+
+
+
+
+
+

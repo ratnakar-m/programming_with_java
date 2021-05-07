@@ -1,0 +1,37 @@
+Array - [] - size of array is fixed once initialized in the memory with a specific length
+
+Collection
+	List 			Set				Map
+	
+1) List:
+	- objects add(append)/insert/remove/get from list
+	- can have duplicates
+	- add (append) is done at last
+	- it grows as needed
+	Implementations:
+		- ArrayList
+		- LinkedList
+Stack and Queue - specialized lists with specific functionality
+Stack - LIFO or LCFS
+Queue - FIFO or FCFS
+	
+2) Set (no duplicates)
+	- does not have duplicates
+	- you dont have operations to get objects by index
+	- You can only check if the given object exists
+	- it grows as needed
+	Implementations
+		- HashSet (does not store in ascending/descending - order is not guaranteed)
+		- TreeSet (stores in increasing/decreasing)
+		
+3) Map (key-value pairs)
+	- stores key-value pairs
+	- does not guarantee the order of elements as they are inserted
+	- it grows as needed
+	Implementations
+		- HashMap (does not store in ascending/descending)
+		- TreeMap (stores in increasing/decreasing of keys)
+		
+
+	
+	

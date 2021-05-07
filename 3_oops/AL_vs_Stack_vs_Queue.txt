@@ -1,0 +1,26 @@
+Usage: ArrayList, Queue, Stack, Map, Tree, Set 
+
+Implement: MyArrayList, MyQueue, MyStack, MyHashMap, MyTree, MySet 
+
+
+- []  vs ArrayList
+- ArrayList vs Stack
+	add()
+	insert()
+	remove()
+	remove(int idx)
+	remove(object)
+	
+10 34 78 12
+
+> 67
+
+Queue q: 10 34 78 12 67
+Stack s: 10 34 78 12 67
+
+s.remove() //will remove 67
+q.remove() //will remove 10 
+
+10 34 78 12
+
+
